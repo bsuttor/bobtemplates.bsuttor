@@ -1,4 +1,4 @@
-
+Introduction
 ============
 
 ``bobtemplates.bsuttor`` is a `mr.bob`_ templates to generate strucutre packages for Plone projects. 
@@ -37,7 +37,7 @@ Finally you can lauch test::
 
 Or starting Plone::
 
-    $bin/instance fg
+    $ bin/instance fg
 
 Go with your browser to ``http://localhost:8080/Plone``, and you can see your site with your module installed
 
