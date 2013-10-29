@@ -1,4 +1,4 @@
-Introduction
+
 ============
 
 ``bobtemplates.bsuttor`` is a `mr.bob`_ templates to generate strucutre packages for Plone projects. 
@@ -41,9 +41,9 @@ Or starting Plone::
 
 Go with your browser to ``http://localhost:8080/Plone``, and you can see your site with your module installed
 
-It's time to customize it ;-), see `Plone devlopper`_ help
+It's time to customize it ;-), see `Plone developer`_ help
 
 
 .. _mr.bob: http://mrbob.readthedocs.org/en/latest/
 .. _Plone: http://plone.org
-.. _Plone devlopper: http://developer.plone.org
+.. _Plone developer: http://developer.plone.org
