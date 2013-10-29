@@ -12,7 +12,7 @@ setup(
     classifiers=[
         "Environment :: Console",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: BSD License",
+        "License :: OSI Approved :: GPL License",
         "Natural Language :: English",
         "Programming Language :: Python",
         "Topic :: Software Development :: Code Generators",
@@ -22,7 +22,7 @@ setup(
     author='Benoît Suttor',
     author_email='ben.suttor@gmail..com',
     url='https://github.com/bsuttor/bobtemplates.bsuttor',
-    license='BSD',
+    license='GPL',
     packages=find_packages(exclude=['ez_setup']),
     namespace_packages=['bobtemplates'],
     include_package_data=True,
@@ -33,10 +33,9 @@ setup(
     ],
     extras_require={
         'test': [
-            'nose',
-            'nose-selecttests',
-            'scripttest',
+            'mr.bob',
             'unittest2',
+            'scripttest',
         ]
     },
     entry_points={},

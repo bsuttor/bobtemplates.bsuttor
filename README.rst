@@ -44,6 +44,14 @@ Go with your browser to ``http://localhost:8080/Plone``, and you can see your si
 
 It's time to customize it ;-), see `Plone developer`_ help
 
+Other example
+-------------
+
+You can see other example of bobtempaltes which are inspired me
+
+* https://github.com/iElectric/bobtemplates.ielectric
+* https://github.com/Kotti/bobtemplates.kotti
+* https://github.com/niteoweb/bobtemplates.niteoweb
 
 .. _mr.bob: http://mrbob.readthedocs.org/en/latest/
 .. _Plone: http://plone.org

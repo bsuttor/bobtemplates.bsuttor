@@ -8,3 +8,4 @@ lib
 parts
 var
 *.egg-info
+src
