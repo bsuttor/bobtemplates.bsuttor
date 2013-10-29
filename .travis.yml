@@ -1,0 +1,9 @@
+language: python
+python:
+  - python2.7
+
+install:
+  - make install
+
+script:
+  - make test
