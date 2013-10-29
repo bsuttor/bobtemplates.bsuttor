@@ -23,7 +23,8 @@ You have to answer some questions::
     Value in square brackets at the end of the questions present default value
     if there is no answer.
 
-    --> Name of the namespace: collective
+
+    --> Namespace of the package: collective
     [...]
 
 Now you can install your add on::
