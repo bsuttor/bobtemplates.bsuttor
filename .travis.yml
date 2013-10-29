@@ -1,6 +1,6 @@
 language: python
 python:
-  - python2.7
+  - 2.7
 
 install:
   - make install
