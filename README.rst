@@ -1,5 +1,7 @@
 Introduction
 ============
+.. image:: https://secure.travis-ci.org/bsuttor/bobtemplates.bsuttor.png
+     :target: http://travis-ci.org/bsuttor/bobtemplates.bsuttor
 
 ``bobtemplates.bsuttor`` is a `mr.bob`_ templates to generate strucutre packages for Plone projects. 
 
