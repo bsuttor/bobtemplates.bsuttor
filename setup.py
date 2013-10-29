@@ -11,8 +11,8 @@ setup(
     long_description=open("README.rst").read(),
     classifiers=[
         "Environment :: Console",
+        "Operating System :: OS Independent",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: GPL License",
         "Natural Language :: English",
         "Programming Language :: Python",
         "Topic :: Software Development :: Code Generators",
