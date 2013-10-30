@@ -5,7 +5,7 @@ Introduction
 
 ``bobtemplates.bsuttor`` is a `mr.bob`_ templates to generate strucutre packages for Plone projects. 
 
-At the moment, there is only one template for a empty `Plone`_ add-on
+At the moment, there is only one template for a empty `Plone`_ add-on. This template install a Plone add on with Test layer for intergration, funcationnal and robot test.
 
 Hot to create a Plone add-on package
 ------------------------------------
