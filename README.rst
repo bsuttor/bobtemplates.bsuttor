@@ -1,9 +1,11 @@
 Introduction
 ============
+.. image:: https://secure.travis-ci.org/bsuttor/bobtemplates.bsuttor.png
+     :target: http://travis-ci.org/bsuttor/bobtemplates.bsuttor
 
 ``bobtemplates.bsuttor`` is a `mr.bob`_ templates to generate strucutre packages for Plone projects. 
 
-At the moment, there is only one template for a empty `Plone`_ add-on
+At the moment, there is only one template for a empty `Plone`_ add-on. This template install a Plone add on with Test layer for intergration, funcationnal and robot test.
 
 Hot to create a Plone add-on package
 ------------------------------------
@@ -44,6 +46,14 @@ Go with your browser to ``http://localhost:8080/Plone``, and you can see your si
 
 It's time to customize it ;-), see `Plone developer`_ help
 
+Other example
+-------------
+
+You can see other example of bobtempaltes which are inspired me
+
+* https://github.com/iElectric/bobtemplates.ielectric
+* https://github.com/Kotti/bobtemplates.kotti
+* https://github.com/niteoweb/bobtemplates.niteoweb
 
 .. _mr.bob: http://mrbob.readthedocs.org/en/latest/
 .. _Plone: http://plone.org

@@ -8,3 +8,6 @@ lib
 parts
 var
 *.egg-info
+src
+*.pyc
+local
