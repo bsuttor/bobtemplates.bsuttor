@@ -11,6 +11,7 @@ parts +=
     omelette
     plonesite
     translation
+    code-analysis
 
 [instance]
 eggs += 
@@ -37,6 +38,10 @@ eggs =
     Pillow
     ${test:eggs}
     plone.app.robotframework[reload]
+
+[code-analysis]
+recipe = plone.recipe.codeanalysis
+directory = ${buildout:directory}/src
 
 [omelette]
 recipe = collective.recipe.omelette
