@@ -4,13 +4,15 @@ Changelog
 0.1.2 (unreleased)
 ------------------
 
-- Nothing changed yet.
+- Add plone.recipe.codeanalys into buildout.cfg
+  [bsuttor]
 
 
 0.1.1 (2013-10-29)
 ------------------
 
 - Update classifiers. 
+  [bsuttor]
 
 
 0.1 (2013-10-29)
