@@ -10,7 +10,7 @@ def read(*rnames):
 
 long_description = \
     read('README.rst') + \
-    read('CHANGES.txt')
+    read('CHANGES.rst')
 
 setup(
     name='{{{ package.namespace }}}.{{{ package.name }}}',
