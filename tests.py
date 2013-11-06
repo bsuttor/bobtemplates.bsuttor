@@ -64,7 +64,7 @@ class PloneTemplateTest(BaseTemplateTest):
              'collective.foo/src/collective/__init__.py',
              'collective.foo/src/collective',
              'collective.foo/buildout.cfg',
-             'collective.foo/CHANGES.txt',
+             'collective.foo/CHANGES.rst',
              'collective.foo/src/collective/foo/setuphandlers.py',
              'collective.foo/src/collective/foo/profiles/testing',
              'collective.foo/src/collective/foo/tests/__init__.py',
