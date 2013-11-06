@@ -1,6 +1,5 @@
 graft bobtemplates
-include *.cfg *.rst *.in
+include *.cfg *.rst *.in *.txt
 include setup.py
-include *.txt
 
 recursive-include docs *
