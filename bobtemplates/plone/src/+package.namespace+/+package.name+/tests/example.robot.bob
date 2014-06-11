@@ -17,4 +17,4 @@ Site Administrator can view homepage
 *** Keywords ***
 Suite Setup
     Open test browser
-    Enable autologin as  'Site Administrator'
+    Enable autologin as  Site Administrator
