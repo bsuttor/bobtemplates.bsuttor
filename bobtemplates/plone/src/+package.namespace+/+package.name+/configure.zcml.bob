@@ -26,6 +26,18 @@
         provides="Products.GenericSetup.interfaces.EXTENSION"
         />
 
+    <genericsetup:registerProfile
+        name="uninstall"
+        title="{{{ package.namespace }}}.{{{ package.name }}}: uninstall"
+        directory="profiles/uninstall"
+        description="Uninstall profile for {{{ package.namespace }}}.{{{ package.name }}}."
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+        />
+
+    <utility factory="{{{ package.namespace }}}.{{{ package.name }}}.profile.HiddenProfiles"
+        name="{{{ package.namespace }}}.{{{ package.name }}}.hiddenprofiles" />
+
+
     <i18n:registerTranslations directory="locales" />
 
 </configure>

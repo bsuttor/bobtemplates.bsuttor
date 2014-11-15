@@ -37,7 +37,7 @@ recipe = zc.recipe.egg
 eggs =
     Pillow
     ${test:eggs}
-    plone.app.robotframework[reload]
+    plone.app.robotframework[reload, debug]
 
 [code-analysis]
 recipe = plone.recipe.codeanalysis
@@ -46,3 +46,9 @@ directory = ${buildout:directory}/src
 [omelette]
 recipe = collective.recipe.omelette
 eggs = ${test:eggs}
+
+[versions]
+plone.app.robotframework = 
+selenium = 
+robotframework =
+robotsuite =
