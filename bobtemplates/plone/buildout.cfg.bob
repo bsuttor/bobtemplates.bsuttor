@@ -9,8 +9,8 @@ package-extras = [test]
 parts += 
     robot
     omelette
-    plonesite
     translation
+#    plonesite
 #    code-analysis
 
 [instance]
