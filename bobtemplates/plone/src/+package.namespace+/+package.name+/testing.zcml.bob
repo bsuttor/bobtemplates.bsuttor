@@ -12,7 +12,7 @@
       name="testing"
       title="{{{ package.namespace }}}.{{{ package.name }}} testing"
       directory="profiles/testing"
-      description="{{{ package.namespace }}}.{{{ package.name }}} testing profile, only visible on testing and development"
+      description="Testing profile is only visible and installable on testing and development."
       provides="Products.GenericSetup.interfaces.EXTENSION"
       />
   <genericsetup:importStep

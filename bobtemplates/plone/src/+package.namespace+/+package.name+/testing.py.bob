@@ -5,6 +5,7 @@ from plone.app.testing import IntegrationTesting
 from plone.app.testing import FunctionalTesting
 
 from plone.app.robotframework.testing import AUTOLOGIN_LIBRARY_FIXTURE
+from plone.app.robotframework.testing import REMOTE_LIBRARY_BUNDLE_FIXTURE
 
 import {{{ package.namespace }}}.{{{ package.name }}}
 
@@ -27,8 +28,9 @@ import {{{ package.namespace }}}.{{{ package.name }}}
 )
 
 {{{ package.namespace.upper() }}}_{{{ package.name.upper() }}}_ROBOT_TESTING = FunctionalTesting(
-    bases=({{{ package.namespace.upper() }}}_{{{ package.name.upper() }}}, AUTOLOGIN_LIBRARY_FIXTURE, z2.ZSERVER_FIXTURE),
+    bases=(
+        {{{ package.namespace.upper() }}}_{{{ package.name.upper() }}},
+        REMOTE_LIBRARY_BUNDLE_FIXTURE,
+        z2.ZSERVER_FIXTURE),
     name="{{{ package.namespace.upper() }}}_{{{ package.name.upper() }}}_ROBOT_TESTING")
-
-
 
