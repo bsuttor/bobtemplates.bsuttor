@@ -1,0 +1,42 @@
+# ============================================================================
+# EXAMPLE ROBOT TESTS
+# ============================================================================
+#
+# Run this robot test stand-alone:
+#
+# $ bin/test -s {{{ package.namespace }}}.{{{ package.name }}} -t example.robot --all
+#
+# Run this robot test with robot server (which is faster):
+#
+# 1) Start robot server:
+#
+# $ bin/robot-server --reload-path src {{{ package.namespace }}}.{{{ package.name }}}.testing.{{{ package.namespace.upper() }}}_{{{ package.name.upper() }}}_ROBOT_TESTING
+#
+# 2) Run robot tests:
+#
+# $ bin/robot src/{{{ package.namespace }}}/{{{ package.name }}}/tests/robot/example.robot
+#
+# See the http://docs.plone.org for further details (search for robot
+# framework).
+#
+# ============================================================================
+*** Settings ***
+Resource  plone/app/robotframework/selenium.robot
+Resource  plone/app/robotframework/keywords.robot
+
+Library  Remote  ${PLONE_URL}/RobotRemote
+
+Suite Setup  Suite Setup
+Suite Teardown  Close all browsers
+
+
+*** Test Cases ***
+Site Administrator can view homepage
+    Go to homepage
+    Page should contain  {{{ package.namespace }}}.{{{ package.name }}}
+
+
+*** Keywords ***
+Suite Setup
+    Open test browser
+    Enable autologin as  Site Administrator
